@@ -1,14 +1,12 @@
-# Task Management App
+### GitHub link: https://github.com/RafiulAlam98/Betafore-Task-Api
 
-### GitHub link: https://github.com/RafiulAlam98/Task-Management-Api
+### All Routes
 
-### All Routes for Task Management App
-
-### Live Link: https://task-management-api-sigma.vercel.app
+### Live Link: https://betafore-task-api.vercel.app
 
 # Application Routes:
 
-### Sample User Sign Up json type
+### Sample User Sign Up and login json type
 ```
 {
     "name":"abc",
@@ -18,28 +16,30 @@
     "photo":"photo"
 }
 ```
-
-### User
-- https://task-management-api-sigma.vercel.app/api/v1/user/signup [user sign up] (POST)
-- https://task-management-api-sigma.vercel.app/auth/login [login user] (POST)
-
-### Task
-- https://task-management-api-sigma.vercel.app/api/v1/task (post)[add task]
-- https://task-management-api-sigma.vercel.app/api/v1/task (get)[get all task]
-- https://task-management-api-sigma.vercel.app/api/v1/task/taskId (get)[get single task ]
-- https://task-management-api-sigma.vercel.app/api/v1/task/taskId [patch]
-- https://task-management-api-sigma.vercel.app/api/v1/task/taskId [delete]
-
-### Sample task Data for create a task
 ```
 {
-  "title": "Complete Project Presentation",
-  "duration": 120,
-  "project": "Quarterly Review",
-  "taskDate": "2023-11-10",
-  "description": "Prepare and deliver a presentation for the quarterly review meeting.",
-  "priority": "1st Priority",
-  "status": false,
-  "employee":"abc@def.com"
+    "email":"abc@def.com",
+    "password":"hello1234",
+}
+```
+
+### User
+- https://betafore-task-api.vercel.app/api/v1/user/signup [user sign up] (POST)
+- https://betafore-task-api.vercel.app/auth/login [login user] (POST)
+
+### Product
+- https://betafore-task-api.vercel.app/api/v1/products (post)[add task]
+- https://betafore-task-api.vercel.app/api/v1/products (get)[get all task]
+- https://betafore-task-api.vercel.app/api/v1/products/:id (get)[get single task ]
+- https://betafore-task-api.vercel.app/api/v1/products/:id [patch]
+- https://betafore-task-api.vercel.app/api/v1/products/:id [delete]
+
+### Sample product Data
+```
+{
+    "title":"gjryhjerjewhhgjsd",
+    "img":"guasdhuijd",
+    "price":"100",
+    "quantity":"100"
 }
 ```
