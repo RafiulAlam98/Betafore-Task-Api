@@ -34,7 +34,7 @@
 - https://betafore-task-api.vercel.app/api/v1/products/:id [patch]
 - https://betafore-task-api.vercel.app/api/v1/products/:id [delete]
 
-### Sample task Data for create a task
+### Sample product Data
 ```
 {
     "title":"gjryhjerjewhhgjsd",
