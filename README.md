@@ -24,15 +24,15 @@
 ```
 
 ### User
-- https://task-management-api-sigma.vercel.app/api/v1/user/signup [user sign up] (POST)
-- https://task-management-api-sigma.vercel.app/auth/login [login user] (POST)
+- https://betafore-task-api.vercel.app/api/v1/user/signup [user sign up] (POST)
+- https://betafore-task-api.vercel.app/auth/login [login user] (POST)
 
 ### Product
-- https://task-management-api-sigma.vercel.app/api/v1/products (post)[add task]
-- https://task-management-api-sigma.vercel.app/api/v1/products (get)[get all task]
-- https://task-management-api-sigma.vercel.app/api/v1/products/:id (get)[get single task ]
-- https://task-management-api-sigma.vercel.app/api/v1/products/:id [patch]
-- https://task-management-api-sigma.vercel.app/api/v1/products/:id [delete]
+- https://betafore-task-api.vercel.app/api/v1/products (post)[add task]
+- https://betafore-task-api.vercel.app/api/v1/products (get)[get all task]
+- https://betafore-task-api.vercel.app/api/v1/products/:id (get)[get single task ]
+- https://betafore-task-api.vercel.app/api/v1/products/:id [patch]
+- https://betafore-task-api.vercel.app/api/v1/products/:id [delete]
 
 ### Sample task Data for create a task
 ```
