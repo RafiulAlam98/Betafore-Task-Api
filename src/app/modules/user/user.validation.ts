@@ -13,13 +13,6 @@ const createZodSchema = z.object({
     password: z.string({
       required_error: 'Password is required',
     }),
-
-    phoneNo: z
-      .string({
-        required_error: 'Phone no is required',
-      })
-      .optional(),
-    photo: z.string().optional(),
   }),
 })
 export const UserValidation = {

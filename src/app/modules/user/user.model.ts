@@ -20,15 +20,6 @@ const UserSchema = new Schema<IUser>(
       required: true,
       select: 0,
     },
-    phoneNo: {
-      type: String,
-      required: false,
-      unique: true,
-    },
-    photo: {
-      type: String,
-      required: false,
-    },
   },
   {
     timestamps: true,
